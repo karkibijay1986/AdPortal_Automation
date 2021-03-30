@@ -6,7 +6,7 @@ import org.testng.annotations.DataProvider;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-		features = { "/Users/p2815492/NewEclipseWorkSpace/AdPortalUAT_Automation/src/test/resources/adportalFeatures/Adportal_Login.feature" },
+		features = { "/Users/p2815492/NewGit/AdPortalUAT_Automation/src/test/resources/adportalFeatures/Adportal_Login.feature" },
 		plugin = {"pretty",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 				"timeline:test-output-thread/"
