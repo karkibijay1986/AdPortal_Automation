@@ -97,8 +97,21 @@
 			<artifactId>poi-ooxml</artifactId>
 			<version>4.1.2</version>
 		</dependency>
+  
+    <dependency>
+        <groupId>com.github.ralfstuckert.pdfbox-layout</groupId>
+        <artifactId>pdfbox2-layout</artifactId>
+        <version>1.0.0</version>
+    </dependency>
 
 	</dependencies>
+	
+	 <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
 
 	<build>
 		<plugins>
