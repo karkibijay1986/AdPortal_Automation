@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      java: corretto11
+      java: corretto8
   pre_build:
     commands:
       - echo Nothing to do in the pre_build phase...
@@ -16,5 +16,5 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - '**/*'
-   discard-paths: yes 
+  -target/AdPortalUAT_Automation -0.0.1-SNAPSHOT
+   
