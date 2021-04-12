@@ -96,9 +96,23 @@
 			<artifactId>poi-ooxml</artifactId>
 			<version>4.1.2</version>
 		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/com.github.ralfstuckert.pdfbox-layout/pdfbox2-layout -->
+        <dependency>
+            <groupId>com.github.ralfstuckert.pdfbox-layout</groupId>
+            <artifactId>pdfbox2-layout</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+		
 	</dependencies>
 
-
+<repositories>
+	<repository>
+		<id>mulesoft-releases</id>
+		<name>MuleSoft Repository</name>
+		<url>https://repository.mulesoft.org/nexus/content/repositories/public/</url>
+	</repository>
+</repositories>
 
 	<build>
 		<plugins>
