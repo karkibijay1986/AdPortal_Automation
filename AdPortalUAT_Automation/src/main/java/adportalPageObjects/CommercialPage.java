@@ -1,4 +1,4 @@
-package AdportalPageObjects;
+package adportalPageObjects;
 
 import java.awt.AWTException;
 import java.awt.Robot;

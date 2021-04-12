@@ -1,4 +1,4 @@
-package AdportalPageObjects;
+package adportalPageObjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

@@ -1,4 +1,4 @@
-package AdportalPageObjects;
+package adportalPageObjects;
 
 import javax.swing.JOptionPane;
 

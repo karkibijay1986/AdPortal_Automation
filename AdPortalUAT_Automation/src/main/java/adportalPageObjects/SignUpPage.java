@@ -1,4 +1,4 @@
-package AdportalPageObjects;
+package adportalPageObjects;
 
 import java.util.ArrayList;
 import org.openqa.selenium.By;

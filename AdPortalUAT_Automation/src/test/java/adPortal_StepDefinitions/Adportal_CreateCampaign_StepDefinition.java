@@ -4,12 +4,12 @@ import java.awt.AWTException;
 
 import org.openqa.selenium.JavascriptExecutor;
 
-import AdportalPageObjects.CommercialPage;
-import AdportalPageObjects.LogInPage;
-import AdportalPageObjects.ReachPage;
-import AdportalPageObjects.RequestDashBoardPage;
-import AdportalPageObjects.ReviewOrderPage;
-import AdportalPageObjects.SchedulePage;
+import adportalPageObjects.CommercialPage;
+import adportalPageObjects.LogInPage;
+import adportalPageObjects.ReachPage;
+import adportalPageObjects.RequestDashBoardPage;
+import adportalPageObjects.ReviewOrderPage;
+import adportalPageObjects.SchedulePage;
 import factory.DriverFactory;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

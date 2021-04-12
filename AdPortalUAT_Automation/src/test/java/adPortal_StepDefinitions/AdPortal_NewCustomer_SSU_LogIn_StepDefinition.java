@@ -1,8 +1,8 @@
 package adPortal_StepDefinitions;
 
-import AdportalPageObjects.LogInPage;
-import AdportalPageObjects.ReachPage;
-import AdportalPageObjects.SignUpPage;
+import adportalPageObjects.LogInPage;
+import adportalPageObjects.ReachPage;
+import adportalPageObjects.SignUpPage;
 import factory.DriverFactory;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
